@@ -1,0 +1,207 @@
+html,body{
+	background:#fff;
+	height:100%;
+	font-family: 'Bree Serif',serif;
+	-web-kit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+
+}
+
+
+
+/*Font size*/
+h1{
+	font-size:70px;
+}
+
+h2{
+	font-size:36px;
+}
+
+h3{
+	font-size:20px;
+}
+
+h4{
+	font-size:24px;
+}
+
+h5{
+	font-size:18px;
+}
+
+h6{
+	font-size:16px;
+}
+
+p{
+	font-size:10px;
+	color:#000;
+	line-height:2;
+	
+}
+
+/*---------------------------End Font size------------------------------*/
+
+
+/*Header*/
+.header-section{
+	background-image: url("http://localhost/fyproj/public/img/btmbg.jpg");
+	position:fixed;
+	width:100%;
+	z-index:99;
+
+}
+
+/*logo*/
+.ums-logo img{
+	margin-left:20px;
+	display: inline-block;
+	float: left;
+	height:70px;
+	width:170px;
+}
+
+.ir-logo img{
+	margin-right:50px;
+	display: inline-block;
+	float: right;
+	height:70px;
+	width:200px;
+}
+
+
+/*---------------------------End of Header------------------------------*/
+
+
+/*background*/
+.set-bg{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+
+
+.intro-section{
+	height:100%;
+	overflow:hidden;
+	background-color:#f0f0f0;
+}
+
+/*------------------------End of background------------------------------*/
+
+
+
+/*intro*/
+.intro-content{
+	display: -ms-flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	max-width:1800px;
+	height: 100%;
+	position: relative;
+}
+
+
+.container{
+	padding-top:20px;
+	margin:auto;
+	width:100%;
+}
+
+
+
+/* Responsive Page Setting*/
+/*Large Screen*/
+
+@media (min-width: 1200px) {
+	.container {
+		max-width:1400px;
+	}
+	
+	.news-event{
+		width:80%;
+	}
+	
+	
+}
+
+
+
+
+/* Medium Screen: 992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		max-width:1199px;
+	}
+	
+}
+/* End Medium Screen: 992px */
+
+
+
+
+
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .container {
+		max-width:991px;
+	}
+  
+	.header-section {
+		padding-bottom: 20px;
+	}
+}
+/* End Tablet: 768px */
+
+
+
+
+
+/* Large Mobile:  480px till 767px */
+
+@media only screen and (max-width: 767px) {
+	.container {
+		max-width:767px;
+	}
+	
+	.header-section {
+		padding-bottom: 20px;
+	}
+	
+}
+/* End Large Mobile:  480px till 767px */	
+
+
+
+
+
+	
+/* Medium Mobile: 576px */
+
+@media only screen and (min-width: 576px) and (max-width: 766px) {
+	.intro-section {
+		height: 900px;
+	}	
+
+}
+
+
+
+
+
+/* End Medium Mobile: 576px */
+	
+/* Small  Mobile: max479px */
+@media only screen and (max-width:479px) {
+
+
+}
+/* End Small  Mobile: max479px */

@@ -1,0 +1,262 @@
+html,body{
+	height:100%;
+	font-family: 'Bree Serif',serif;
+	-web-kit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	background-image: url("http://localhost/fyproj/public/img/bg.jpeg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	
+}
+
+
+
+/*Font size*/
+h1{
+	font-size:70px;
+}
+
+h2{
+	font-size:36px;
+}
+
+h3{
+	font-size:15px;
+}
+
+p{
+	font-size:10px;
+	color:#000;
+	line-height:2;
+	
+}
+
+/*---------------------------End Font size------------------------------*/
+
+
+/*Header*/
+.header-section{
+	background-image: url("http://localhost/fyproj/public/img/btmbg.jpg");
+	position:absolute;
+	width:100%;
+	z-index:99;
+	padding-bottom:5px;
+}
+
+
+/*logo*/
+.ums-logo img{
+	margin-left:20px;
+	display: inline-block;
+	float: left;
+	height:70px;
+	width:170px;
+}
+
+.ir-logo img{
+	margin-right:50px;
+	display: inline-block;
+	float: right;
+	height:70px;
+	width:200px;
+}
+
+
+/*---------------------------End of Header------------------------------*/
+
+
+
+/*background*/
+.set-bg{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:top center;
+}
+
+
+.intro-section{
+	overflow:hidden;
+	background-color:rgba(255,255,255,0.2);
+}
+
+.intro-section h3{
+	font-size:17px;
+	text-decoration: none;
+	color:#000;
+}
+
+.fac-slot:hover{
+	box-shadow: 2px 5px #888888;
+	text-decoration: none;
+}
+
+.fac-slot:hover img, .fac-slot:hover h3{
+	transform: translate(0, 5px);
+	
+}
+
+/*------------------------End of background------------------------------*/
+
+
+
+/*intro*/
+.intro-content{
+	max-width:100%;
+	height: auto;
+	margin-top:130px;
+	padding-bottom:30px;
+	text-align:center;
+	background:#eee;
+}
+
+.container{
+	padding-top:20px;
+	margin:auto;
+	width:100%;
+}
+
+
+.fac-slot {
+	margin:10px 20px 20px 40px;
+	display:inline-block;
+	width:220px;
+	padding-bottom:10px;
+}
+
+.fac-slot img{
+	margin:5px 10px 0 10px;
+}
+
+.fac-slot h3{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	max-height:40px;
+}
+
+
+.spadBtm{
+  background-image: url("http://localhost/fyproj/public/img/btmbg.jpg");
+  padding: 50px 0 50px 0;
+}
+
+.spadBtm h2{
+  color:#fff;
+  font-size:25px;
+  margin-bottom:0px;
+}
+
+.spadBtm h5{
+  color:#fff;
+  font-size:20px;
+  margin-bottom:0px;
+}
+
+.spadBtm p{
+  color:#fff;
+  font-size:13px;
+  margin-bottom:0px;
+}
+
+.spadBtm ul{
+  margin-top:20px;
+}
+
+.spadBtm li{
+  display:inline;
+  margin:10px;
+  font-size:30px;
+  color:#fff;
+}
+
+
+
+
+/* Responsive Page Setting*/
+/*Large Screen*/
+
+@media (min-width: 1200px) {
+	.container {
+		max-width:1400px;
+	}
+	
+	.news-event{
+		width:80%;
+	}
+	
+	
+}
+
+
+
+
+/* Medium Screen: 992px */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.container {
+		max-width:1199px;
+	}
+	
+}
+/* End Medium Screen: 992px */
+
+
+
+
+
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+   .container {
+		max-width:991px;
+	}
+  
+	.header-section {
+		padding-bottom: 20px;
+	}
+}
+/* End Tablet: 768px */
+
+
+
+
+
+/* Large Mobile:  480px till 767px */
+
+@media only screen and (max-width: 767px) {
+	.container {
+		max-width:767px;
+	}
+	
+	.header-section {
+		padding-bottom: 20px;
+	}
+	
+}
+/* End Large Mobile:  480px till 767px */	
+
+
+
+
+
+	
+/* Medium Mobile: 576px */
+
+@media only screen and (min-width: 576px) and (max-width: 766px) {
+	.intro-section {
+		height: 900px;
+	}	
+
+}
+
+
+
+
+
+/* End Medium Mobile: 576px */
+	
+/* Small  Mobile: max479px */
+@media only screen and (max-width:479px) {
+
+
+}
+/* End Small  Mobile: max479px */
