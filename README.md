@@ -4,7 +4,7 @@ Academic Advice and Support System with NLP is a system that shows all the progr
 # Installation
 Framework: Codeigniter<br/>
 Python: 3.8 64bit<br/>
-Python library: Spacy<br/>
+Python library: Spacy, numpy<br/>
 Database: XAMPP<br/>
 
 # Setup
