@@ -46,7 +46,6 @@ $db['default'] = array(
 	
 	'stricton' => FALSE,
 	
-	'failover' => array(),
-	
+	'failover' => array(),<br/>
 	'save_queries' => TRUE
 );
