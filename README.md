@@ -3,11 +3,11 @@ Academic Advice and Support System with NLP is a system that shows all the progr
 
 # Installation
 Framework: Codeigniter<br/>
-Python: 3.8 64bit
-Python library: Spacy
-Database: Xampp
+Python: 3.8 64bit<br/>
+Python library: Spacy<br/>
+Database: Xampp<br/>
 
-#Setup
+# Setup
 Place all the file in applications, views, and models in the respective codeigniter folders.
 
 Modify content in application\config\database.php as below<br/>
