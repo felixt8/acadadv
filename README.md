@@ -8,9 +8,10 @@ Python library: Spacy, numpy<br/>
 Database: XAMPP<br/>
 
 # Setup
-Import fyp.sql in your XAMPP database server
+Import fyp.sql to your XAMPP database server
 
 Place all the file in application (controllers, views, and models) and public (css, img, js, Model) folder to the respective codeigniter folders.<br/>
+
 Modify content in application\config\database.php as below<br/>
 $db['default'] = array(<br/>
 	'dsn'	=> '',<br/>
