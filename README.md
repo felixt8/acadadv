@@ -6,7 +6,7 @@ Academic Advice and Support System with NLP is a system that shows all the progr
 
 
 C:\xampp\htdocs\fyproj\application\config
-$db['default'] = array(
+$db['default'] = array( \n
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
