@@ -8,7 +8,8 @@ Python library: Spacy<br/>
 Database: XAMPP<br/>
 
 # Setup
-Place all the file in application (controllers, views, and models) and public (css, img, js) folder in the respective codeigniter folders.<br/>
+Import fyp.sql in your XAMPP database server<br/>
+Place all the file in application (controllers, views, and models) and public (css, img, js, Model) folder to the respective codeigniter folders.<br/>
 Modify content in application\config\database.php as below<br/>
 $db['default'] = array(<br/>
 	'dsn'	=> '',<br/>
@@ -31,3 +32,6 @@ $db['default'] = array(<br/>
 	'failover' => array(),<br/>
 	'save_queries' => TRUE<br/>
 );
+
+Change application\models\Pipeline.php $python to your python interpreter directory<br/>
+$python = '*YOUR DIRECTORY*\\python.exe';
