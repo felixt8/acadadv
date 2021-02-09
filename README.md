@@ -1,11 +1,14 @@
 # Academic Advice and Support System with NLP
 Academic Advice and Support System with NLP is a system that shows all the program and courses of university, and recommending courses for students by using chatbot.
 
-# Setup & Installation
+# Installation
+Codeigniter framework
+Spacy python library
 
-
+#Setup
 
 C:\xampp\htdocs\fyproj\application\config
+
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
