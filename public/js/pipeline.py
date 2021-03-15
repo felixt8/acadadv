@@ -3,10 +3,11 @@ import spacy
 
 nlp=spacy.load('en_core_web_sm')
 nlp2=spacy.load('C:\\xampp\\htdocs\\fyproj\\public\\Model\\NER-Model')
+nlp3=spacy.load('C:\\xampp\\htdocs\\fyproj\\public\\Model\\Model-CNN')
 sentc=[]
-lem=[]
+lem=""
 stp=[]
-
+sep=[]
 input=sys.argv[1]
 
 input=input.replace("_"," ")
@@ -31,7 +32,7 @@ for d in stp:
     l=""
     for sen in doc:
         l += str(sen.lemma_)+" "
-    lem.append(l)
+    lem+=l
 
 ner=[]
 doc2=nlp2(input)
@@ -43,9 +44,8 @@ for x in doc2.ents:
 for word in doc2.ents:
     print(word.lemma_)
 
-for sen in sentc:
-    for word in sen:
-        if word.tag_=='NNP' or word.tag_=='NN':
-            if word.lemma_ not in ner:
-                #THIS*********
-                print(word.lemma_)
+doc3=nlp3(lem)
+for word in doc3:
+    if word.tag_=='NNP' or word.tag_=='NN':
+        if word.lemma_ not in ner:
+            print(word.lemma_)
